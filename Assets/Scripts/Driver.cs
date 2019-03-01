@@ -73,6 +73,7 @@ public class Driver : MonoBehaviour
         if (other.tag == "jump")
         {
             anim.SetBool("Jump", true);
+            nextCheckpoint += 1;
         }
         else if (other.tag == "Finish")
         {
